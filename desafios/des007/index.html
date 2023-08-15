@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinamica</title>
+</head>
+<body>
+   <h1>Testando dinamismo de imagem</h1> 
+   <p>
+    <picture>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/gato300.jpg" type="image/jpg">
+            <source media="(max-width: 900px)" srcset="imagens/gato700.jpg" type="image/jpg">
+            <img src="imagens/gato1000.jpg" alt="imagem g">
+        </picture>
+    </picture>
+   </p>
+</body>
+</html>
