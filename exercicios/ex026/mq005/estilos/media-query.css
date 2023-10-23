@@ -18,10 +18,6 @@ Grandes monitores, tvs e etc: acima de 1200px
         display: none;
     }
 
-    menu{
-        display: block;
-    }
-
     menu li{
         display: inline-block;
     }
@@ -35,10 +31,4 @@ Grandes monitores, tvs e etc: acima de 1200px
     }
 }
 
-@media screen and (min-width:992px){ /*notebook, desktop*/
-    
-}
 
-@media screen and (min-width: 1200px) { /*Grandes monitores, desktop e etc*/
-    
-}
